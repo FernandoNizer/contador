@@ -32,7 +32,7 @@ function Cartao() {
   return (
     <div>
       <Card style={{ width: '30rem' }}>
-        <Card.Img variant="top" src="src/img/sol.jpg" />
+        <Card.Img variant="top" src="src/img/sol.jpg" alt='Imagem.jpg' />
         <Card.Body>
         <div>
       <h1>Contador de verão</h1>
