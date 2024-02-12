@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Card } from 'react-bootstrap'; 
 
-function SeuComponente() {
+function Cartao() {
   const [resultado, setResultado] = useState('');
 
   function calcularDiasAteFinalVerao() {
@@ -49,4 +49,4 @@ function SeuComponente() {
   );
 }
 
-export default SeuComponente;
+export default Cartao;
